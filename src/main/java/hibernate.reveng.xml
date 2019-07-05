@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<type-mapping>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
+	</type-mapping>
+	<table-filter match-catalog="cargabd" match-name="docente" />
+	<table catalog="cargabd" name="docente">
+		<column name="DniDocente"></column>
+		<column name="Semestre_academico"></column>
+		<column name="Nombres"></column>
+		<column name="Carga_academico"></column>
+		<column name="Apellidos"></column>
+	</table>
+</hibernate-reverse-engineering>
